@@ -1,0 +1,70 @@
+body {
+background-color: darkslategrey;
+box-sizing: border-box;
+}
+.container {
+    border: 1px solid black;
+    height: 400px;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: 	hotpink;
+    
+}
+.littleContainer {
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 25px;
+    height: 90px;
+    width: 200px;
+    background-color: lightgray;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.Button {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 28%;
+    padding-right: 15px;
+}
+
+.subtract, .multiply, .divide, .add {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+
+.subtract:hover, .multiply:hover, .divide:hover, .add:hover {
+    background-color: aqua;
+    }
+.number {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+ }
+ .overall{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    
+ }
+ .s1, .s2, .s3,.s4,.s5,.s6,.s7,.s8,.s9, .s0, .clear, .equal{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin-right: 15px;
+    margin-bottom: 5%;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+ }
+
+ .s1:hover, .s2:hover, .s3:hover,.s4:hover,.s5:hover,.s6:hover,.s7:hover,.s8:hover,.s9:hover, .s0:hover, .clear:hover, .equal:hover{
+    background-color: aqua;
+}
