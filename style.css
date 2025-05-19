@@ -11,6 +11,7 @@ box-sizing: border-box;
     display: flex;
     flex-direction: column;
     background-color: 	hotpink;
+    border-radius: 6%;
     
 }
 .littleContainer {
@@ -53,7 +54,7 @@ box-sizing: border-box;
     margin-left: 15px;
     
  }
- .s1, .s2, .s3,.s4,.s5,.s6,.s7,.s8,.s9, .s0, .clear, .equal{
+ .s1, .s2, .s3,.s4,.s5,.s6,.s7,.s8,.s9, .s0, .clear, .equal, .dot{
     width: 40px;
     display: flex;
     justify-content: center;
@@ -65,6 +66,13 @@ box-sizing: border-box;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
  }
 
- .s1:hover, .s2:hover, .s3:hover,.s4:hover,.s5:hover,.s6:hover,.s7:hover,.s8:hover,.s9:hover, .s0:hover, .clear:hover, .equal:hover{
+
+
+ .s1:hover, .s2:hover, .s3:hover,.s4:hover,.s5:hover,.s6:hover,.s7:hover,.s8:hover,.s9:hover, .s0:hover, .clear:hover, .equal:hover, .dot:hover{
     background-color: aqua;
+}
+
+.dot {
+    width: 50%;
+    font-size: 23px;
 }
