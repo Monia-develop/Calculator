@@ -1,8 +1,5 @@
 Calculator preview : https://monia-develop.github.io/Calculator/
 
-
-A simple and stylish calculator built with **HTML**, **CSS**, and **JavaScript**.
-
 - Description :
 
 This project is a calculator capable of performing basic arithmetic operations such as addition, subtraction, multiplication, and division. It features a clean, responsive UI and is designed to demonstrate DOM manipulation and basic logic handling in vanilla JavaScript.
