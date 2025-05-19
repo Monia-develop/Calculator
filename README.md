@@ -1,4 +1,4 @@
-Calculator preview : 
+Calculator preview : https://monia-develop.github.io/Calculator/
 
 
 A simple and stylish calculator built with **HTML**, **CSS**, and **JavaScript**.
